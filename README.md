@@ -1,5 +1,4 @@
-# Getting Started with Create React App
-#Please using yarn to install the depedencies.
+# Please using yarn to install the depedencies.
 
 1. Clone the project
 2. enter the project
