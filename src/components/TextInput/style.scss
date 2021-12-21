@@ -1,0 +1,42 @@
+.labelInput {
+  display: block;
+  font-size: 100%;
+  font-weight: 400;
+  font-family: 'Heebo';
+  color: #3b3e66;
+  margin-bottom: 0.5rem;
+  span {
+    color: #f83245;
+  }
+}
+.uppercase-value {
+  text-transform: uppercase;
+}
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  text-transform: none;
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  text-transform: none;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  text-transform: none;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  text-transform: none;
+}
+::placeholder {
+  /* Recent browsers */
+  text-transform: none;
+}
+
+.datePicker {
+  width: 82%;
+}
+.invalidDatePicker {
+  width: 82%;
+  border: 1px solid #d9534f;
+}
